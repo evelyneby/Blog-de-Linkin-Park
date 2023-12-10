@@ -1,0 +1,88 @@
+* { 
+            margin: 0;
+            padding: 0;
+}
+        
+body{
+            background:url(../imagenes/High-Speed-Free-Starting-Days-pelicula-trailer.jpg);
+}
+header, .main, footer {
+            width: 90%;
+            max-width: 1000px;
+            margin:20px; auto;
+}
+header nav{
+    background: #528fd5;
+    overflow: hidden;
+}
+    header nav ul{
+    list-style:none;
+}
+header nav ul li{
+    float: left;
+} 
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+} 
+header nav ul li a:hover{
+    
+    background:  #75acec;
+} 
+.main .articles{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+    
+}
+
+.main .articles article{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+aside {
+    width: 30%;
+    background: #ff00ff;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer p{
+    background: #000;
+    color: #fff;
+    clear: both;
+    padding: 10px opx;
+    text-align: center;
+}
+
+/* para el manejo de texto tipografia presentacion */
+h2, h3 {
+font-weight: normal;
+text-align: center;
+background: red;
+text-transform: capitalize;
+}
+p {
+    font-family: Sans-serif,Helvetica,Arial;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+.cbtis145{
+	text-size:20px;
+	color:white;
+
+}
